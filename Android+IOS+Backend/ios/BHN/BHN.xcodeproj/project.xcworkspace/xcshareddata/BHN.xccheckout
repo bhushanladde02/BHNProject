@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BF5F8E5B-8C14-4337-A495-1F0CF882C4D1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BHN</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7E047DBC-48A8-4231-9C61-85882D87B9F5</key>
+		<string>https://bitbucket.org/pradeephrish/bhn.git</string>
+		<key>E8C91F167DDE8F1C9CFA96A228C205797DD6EDCF</key>
+		<string>https://bitbucket.org/pradeephrish/bhn.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS/BHN/BHN.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7E047DBC-48A8-4231-9C61-85882D87B9F5</key>
+		<string>../../../../../Testing</string>
+		<key>E8C91F167DDE8F1C9CFA96A228C205797DD6EDCF</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/pradeephrish/bhn.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E8C91F167DDE8F1C9CFA96A228C205797DD6EDCF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E8C91F167DDE8F1C9CFA96A228C205797DD6EDCF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>bhn</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7E047DBC-48A8-4231-9C61-85882D87B9F5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Testing</string>
+		</dict>
+	</array>
+</dict>
+</plist>

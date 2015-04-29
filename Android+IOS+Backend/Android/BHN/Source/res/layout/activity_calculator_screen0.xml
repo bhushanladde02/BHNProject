@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/img_product_clac_scr1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    
+
+   
+
+</LinearLayout>
+
+    <!-- <ImageView
+        android:id="@+id/img_product_clac_scr1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        
+        android:onClick="onImageTap"
+        android:src="@drawable/home" /> -->
+
+

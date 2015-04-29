@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#E7E8E9"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="65dp"
+            android:background="#D1D3D4"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/totalareaLebel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Enter Total Numbers of Acres to Treat"
+                android:textColor="#0F7DC2"
+                android:textSize="@dimen/font_size_long_lebel_row2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#D1D3D4"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/totalAcresInput"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_edittext"
+                android:ems="4"
+                android:gravity="center"
+                android:maxLength="12"
+                android:padding="10dp"
+                android:text="  "
+                android:textColor="#333333"
+                android:textSize="@dimen/font_size_lebel_row1" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lebelRow2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <!-- <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="RESULTS"
+                android:textColor="#000000"
+                android:textSize="@dimen/font_size_long_lebel_row2" /> -->
+
+            <Button
+                android:id="@+id/btn_calc_screen4"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:background="@drawable/getresults"
+                android:layout_gravity="center_horizontal"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="14dp" />
+
+            <!-- <Button
+                android:id="@+id/btn_calc_screen4"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/swipe_left4" /> -->
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nutrient Sufficiency Calculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello">Hello World, TabSample!</string>
+
+    <string-array name="Spinner_Content">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+    </string-array>
+
+    <string name="activity_products">Hello Products</string>
+    <string name="title_tabGroup1CalculatorActivity">Nutrient Sufficiency Calculator</string>
+    <string name="title_tabGroup2ProductsActivity">Product Information</string>
+    <string name="title_tabGroup3MixingGuideActivity">Mixing Guide</string>
+    <string name="title_tabGroup4DeficienciesActivity">Visual Nutrient Deficiency Guide</string>
+    <string name="title_activity_landing">Product Information</string>
+    <string name="title_activity_screen2">Product Information</string>
+    <string name="demo_external_activity">Demo External Activity</string>
+    <string name="demo_collection">Demo Collection</string>
+    <string name="title_activity_calculator_tab_layout">Product Information</string>
+    <string name="title_activity_products">Product Information</string>
+    <string name="title_activity_splash_screen">Home</string>
+
+    <string-array name="location_arrays">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+
+    <string name="location_prompt">Location</string>
+
+    <string-array name="crop_type_arrays">
+        <item>ALMONDS</item>
+        <item>APPLES</item>
+        <item>CANTALOUPE</item>
+        <item>CHILIPEPPERS</item>
+        <item>CORN</item>
+        <item>COTTON</item>
+        <item>Beans</item>
+    </string-array>
+
+    <string name="crop_prompt">Crop Type</string>
+
+    <string-array name="growth_stage_arrays">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="color_leaf_shape_prompt">Color-Leaf Shape</string>
+
+    <string-array name="color_leaf_shape_arrays">
+        <item>yellow patches</item>
+        <item>yellow patches</item>
+        <item>yellow patches</item>
+        <item>yellow patches</item>
+        <item>yellow patches</item>
+        <item>yellow patches</item>
+        <item>yellow patches</item>
+        <item>yellow patches</item>
+    </string-array>
+    <string-array name="land_units_arrays">
+        <item>Acre</item>
+        <item>Hectare</item>
+        <item>Mu</item>
+    </string-array>
+
+    <string name="land_unit_prompt">Land Unit</string>
+
+    <string-array name="product_units_arrays">
+        <item>Gallons / ounces</item>
+        <item>Liters / milliliters</item>
+    </string-array>
+
+    <string name="product_unit_prompt">Product Unit</string>
+    <string name="growth_prompt">Growth Stage</string>
+    <string name="title_activity_mixing_guide">MixingGuideActivity</string>
+    <string name="title_activity_deficiencies">DeficienciesActivity</string>
+    <string name="menu_settings">Unit Measurements</string>
+    <string name="menu_testing_instructions">Testing Instructions</string>
+    <string name="menu_saved_calculations">Saved Calculations</string>
+    <string name="menu_update_app">Update Application</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="pref_send_report">Send crash reports</string>
+    <string name="pref_send_report_summary">Helps to fix bugs</string>
+    <string name="pref_sync_frequency">Sync frequency</string>
+    <string name="pref_sync_frequency_summary">Set the sync frequency</string>
+    <string name="pref_user_name">Set username</string>
+    <string name="pref_user_name_summary">Set your username</string>
+    <string name="pref_user_profile">User Profile</string>
+    <string name="pref_update_setting">Update Settings</string>
+    <string name="pref_account_info">Account Info</string>
+    <string name="title_activity_user_setting_saved_calculation">Saved Calculation</string>
+    <string name="title_activity_user_setting_testing_instruction">Test Instructions</string>
+    <string name="title_activity_user_setting_test_instruction_detail">Test Instructions</string>
+    <string name="title_activity_calculator_screen0">ProductCalculator</string>
+    <string name="title_activity_user_setting_update_app">Update Application</string>
+    <string name="title_activity_user_setting_saved_calculation_detail">Saved Calculation</string>
+
+</resources>

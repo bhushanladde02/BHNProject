@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#E7E8E9"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" >
+            
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Unit Measurement"
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/land_measure1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:background="@drawable/rounded_listview_white"
+                    android:text="Acre"
+                    android:textColor="#0F7DC2"
+                    android:onClick="setAcre"
+                    android:textSize="12dp" />
+                <Button
+                    android:id="@+id/land_measure2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:gravity="left"
+                    android:background="@drawable/rounded_listview_white"
+                    android:padding="10dp"
+                    android:text="Hectare"
+                    android:onClick="setHectare"
+                    android:textColor="#000000"
+                    android:textSize="12dp" />
+                <Button
+                    android:id="@+id/land_measure3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:background="@drawable/rounded_listview_white"
+                    android:text="Mu"
+                    android:onClick="setMu"
+                    android:textColor="#000000"
+                    android:textSize="12dp" />
+            </LinearLayout>
+
+            <!-- <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Product Unit"
+                    android:textColor="#0F7DC2"
+                    android:textSize="12dp" />
+            </LinearLayout> -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="20dp"
+                android:orientation="vertical" >
+                
+                <Button
+                    android:id="@+id/gallons_ounces"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:background="@drawable/rounded_listview_white"
+                    android:text="Gallons / Ounces"
+                    android:onClick="setGallonsOunces"
+                    android:textColor="#0F7DC2"
+                    android:textSize="12dp" />
+                <Button
+                    android:id="@+id/liters_mililiters"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:gravity="left"
+                    android:background="@drawable/rounded_listview_white"
+                    android:padding="10dp"
+                    android:text="Liters / MiliLiters"
+                    android:onClick="setLitersMililiters"
+                    android:textColor="#000000"
+                    android:textSize="12dp" />
+
+                
+            </LinearLayout>
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>

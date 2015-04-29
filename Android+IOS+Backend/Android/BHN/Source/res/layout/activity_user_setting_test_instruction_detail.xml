@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserSettingTestInstructionDetailActivity" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/plantHeading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#E6E7E8"
+                android:gravity="center_horizontal"
+                android:text="TestInstruction heading" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:padding="10dp"
+                android:text="When to take the sample:" />
+
+            <TextView
+                android:id="@+id/whenToTakeSample"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="10dp"
+                android:text="When to take the sample:"
+                android:textColor="#2ECCFA" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:padding="10dp"
+                android:text="Plant appearance:" />
+
+            <TextView
+                android:id="@+id/plantAppearance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="10dp"
+                android:text="When to take the sample:"
+                android:textColor="#2ECCFA" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:padding="10dp"
+                android:text="What part to sample:" />
+
+            <TextView
+                android:id="@+id/partToSample"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="10dp"
+                android:text="When to take the sample:"
+                android:textColor="#2ECCFA" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:padding="10dp"
+                android:text="What is sent to the lab per field:" />
+
+            <TextView
+                android:id="@+id/dataSentToLab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="10dp"
+                android:text="When to take the sample:"
+                android:textColor="#2ECCFA" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:padding="10dp"
+                android:text="Special instructions:" />
+
+            <TextView
+                android:id="@+id/specialInstructions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="10dp"
+                android:text="When to take the sample:"
+                android:textColor="#2ECCFA" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

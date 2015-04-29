@@ -1,0 +1,1464 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MixingGuideActivity" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="CALCIUM"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="> 1.0"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="C-PHOS™"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="> 1.0"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="GOLDEN GRO™"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="> 1.0"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="SUPER PHOS® / PHOS-MAX™"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="> 1.5"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="Z-PHOS™"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="> 1.5"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="COMOL™"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="> 1.5"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="FULVI PRO™"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="1.5 - 2.0"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="ACTIVOL® / TURF MICRO™"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="1.8 - 2.3"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="CROP-GARD®"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="2.0 - 2.4"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="BREAKOUT®"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="2.0 - 2.5"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="D-FEND®"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="2.0 - 2.5"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="SULFUR"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="2.0 - 2.5"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="SKIP™"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="2.0 - 3.0"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="VITOL®"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="2.0 - 3.0"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="VITOL® II"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="2.0 - 3.0"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="LUCKY 7® / TURFPLEX® VII"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="2.2 - 2.8"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="MAX PAK® +"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="2.5 - 3.5"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="COBALT"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="2.5 - 3.5"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="IRON / TURF IRON™"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="2.5 - 3.5"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="Z-MAX®"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="2.5 - 3.5"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="COPPER"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="3.0 - 4.0"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="MANGANESE"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="3.5 - 4.5"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="NICKEL"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="4.5 - 5.5"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="44-MAG®"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="5.0 - 5.5"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="TURFPLEX® QR"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="5.5 - 6.5"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="PROUD 3®"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="6.2 - 6.6"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="ZAP®"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="6.2 - 7.0"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="PROMAX™"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="6.4 - 6.8"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="BORON"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="6.5 - 7.5"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="KLEENUP™"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="6.5 - 7.5"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="TURFPLEX® IV"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="6.5 - 7.5"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6E7E8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="TURFPLEX® SR"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="6.5 - 7.5"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#E6E7E8" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:text="TURF STARTER™"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="6.9 - 7.5"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#E6E7E8" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:text="38 SPECIAL®"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="7.0 - 8.0"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#E6E7E8" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:text="START-L™"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="7.0 - 8.0"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#E6E7E8" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:text="SUPER NITRO®"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="7.5 - 8.0"
+                    android:textColor="#000000"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#E6E7E8" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="FERTIL HUMUS®"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="7.5 - 8.0"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#E6E7E8" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="BEST-BALE®"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="8.0 - 8.5"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#E6E7E8" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="ENCAPSALT®"
+                    android:textColor="#000000"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="8.0 - 9.0"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#E6E7E8" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="BLEND™/SOIL-MAX™ + / MULTI-PURPOSE™"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="8.0 - 9.0"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#E6E7E8" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="MOLYBDENUM"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="8.5 - 9.5"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#E6E7E8" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="X-TEND® / X-TEND® B-CON"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="8.5 - 9.5"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#E6E7E8" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="HUMA PRO™"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="9.0"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#E6E7E8" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="SILI-MAX®"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="11.0 - 11.5"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#E6E7E8" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="SUPER K™"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="12.5 - 13.5"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#E6E7E8" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="SIL-K™"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="> 13.0"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#E6E7E8" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".70"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="JACKPOT® / YIELD-MAX™"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="400dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".30"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="> 13.5"
+                    android:background="@drawable/rounded_textview_grey"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/font_size_table_row_mixin_guide"
+                    android:width="150dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="font_size_lebel_row1">16dp</dimen>
+    <dimen name="font_size_long_lebel_row2">12dp</dimen>
+    <dimen name="font_size_table_row">14dp</dimen>
+    <dimen name="font_size_table_row_mixin_guide">12dp</dimen>
+    <dimen name="font_size_table_row_small">7dp</dimen>
+    <dimen name="font_size_lebel_row3">8dp</dimen>
+    
+    <dimen name="section1_textfield_size">35dp</dimen>
+    <dimen name="section1_textview_size">35dp</dimen>
+    <dimen name="section1_textview_padding_top">10dp</dimen>
+    <dimen name="section1_textview_padding_bottom">10dp</dimen>
+    <dimen name="section1_textview_margin_left">15dp</dimen>
+    <dimen name="section1_textfield_margin_left">8dp</dimen>
+    <dimen name="section1_edittext_padding">5dp</dimen>
+    
+    
+    
+    <dimen name="section1_image_horizontal_bar_margin_top">12dp</dimen>
+    
+    
+    <!-- Section 2 -->
+    
+    <dimen name="section2_textview_margin_left">20dp</dimen>
+    <dimen name="section2_textview_row2_margin_left">28dp</dimen>
+    <dimen name="section2_textfield_margin_left">28dp</dimen>
+    <dimen name="section2_textview_padding_top">10dp</dimen>
+    <dimen name="section2_textview_padding_bottom">10dp</dimen>
+    <dimen name="section2_textview_size">35dp</dimen>
+    <dimen name="section2_textfield_size">35dp</dimen>
+    <dimen name="section2_edittext_padding">5dp</dimen>
+    
+
+</resources>
